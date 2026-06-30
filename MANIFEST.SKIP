@@ -64,3 +64,4 @@
 ^\.travis\.yml$
 ^Map-Tube-Generic-.*.tar.gz$
 ^Map-Tube-Generic-.*.tar.gz.sigstore.json$
+extras/*
