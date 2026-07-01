@@ -15,7 +15,7 @@ use warnings;
 use utf8;
 use version 0.77 ( );
 
-our $VERSION = version->declare('v0.1.0');
+our $VERSION = version->declare('v0.1.1');
 
 =encoding utf8
 
@@ -450,5 +450,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Map::Tube>
+L<Map::Tube>, L<Map::Tube::GraphViz>, L<Map::Tube::CLI>.
+
 
