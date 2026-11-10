@@ -11,5 +11,5 @@ To build this module, use the classical steps:
 * make test
 * make install
 
-(If you are using Srawberry Perl under Windows, you may want to replace "make"
+(If you are using Strawberry Perl under Windows, you may want to replace "make"
 with "gmake".)
