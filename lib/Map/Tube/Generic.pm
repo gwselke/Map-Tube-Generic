@@ -15,7 +15,7 @@ use warnings;
 use utf8;
 use version 0.77 ( );
 
-our $VERSION = version->declare('v0.2.0');
+our $VERSION = version->declare('v0.2.1');
 
 =encoding utf8
 
@@ -72,19 +72,32 @@ has map       => ( is      => 'rwp',
                                     get_line_by_id      get_line_by_name
                                     get_lines           get_stations
                                     get_next_stations   get_linked_stations
-                                    get_map_data
+                                    get_map_data        line_change_penalty
+                                    nodes               lines
+                                    tables              routes
                                     trim                filter
                                     to_perl             is_same
                                     common_lines        get_method_map
                                     is_valid_color
                                     name                name_to_id
                                     plugins             _active_link
-                                    _other_links        _line_stations
-                                    _line_station_index _common_lines
-                                    nodes               lines
-                                    tables              routes
+                                    _other_links        _link_lines
+                                    _line_stations      _line_station_index
+                                    _common_lines
                                     _lines              bgcolor
-                                    as_graph            _get_line_object_by_name
+                                   _xml_data            _decode_utf8_if_needed
+                                   _init_map            _is_directly_linked
+                                   _init_table          _load_plugins
+                                   _get_common_lines    _capture_common_lines
+                                   _get_next_link       _set_active_links
+                                   _set_routes          _validate_map_structure
+                                   _get_path            _capture_line_station
+                                   _set_path            _validate_multi_lined_nodes
+                                   _get_length          _set_length
+                                   _get_current_lines   _set_current_lines
+                                   _get_table           _get_node_id
+                                   _order_station_lines _get_line_object_by_name
+                                   _is_visited          _get_line_object_by_id
                                   )
                               ],
                  );
